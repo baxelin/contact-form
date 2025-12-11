@@ -4,9 +4,7 @@ import FormsPage from './pages/FormsPage'
 function App() {
 
   return (
-    <>
       <FormsPage />
-    </>
   )
 }
 

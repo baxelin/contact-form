@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, h1, a, form, label, fieldset, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+/* Variables */
+
+:root {
+    --bg-color: hsl(148, 38%, 91%);
+    --font-family: "Karla", sans-serif;
+    --font-size:16px
+}
+
+/* Styles */
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
