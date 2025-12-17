@@ -1,8 +1,8 @@
+import "./SubmitButton.css"
+
 function SubmitButton () {
     return (
-        <>
-            <input type="submit" value="Submit" />
-        </>
+        <input className="submit-button" type="submit" value="Submit" />
     )
 }
 
