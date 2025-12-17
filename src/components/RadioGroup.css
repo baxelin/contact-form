@@ -1,0 +1,20 @@
+.radio-group > label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.flex-start {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: .5rem;
+}
+
+.flex-start label,
+.flex-start input {
+  margin: 0;
+}
+
+.radio-group{
+    margin-top: 1rem;
+}
