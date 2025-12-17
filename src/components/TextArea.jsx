@@ -1,9 +1,11 @@
+import "./TextArea.css"
+
 function TextArea () {
     return (
-        <>
+        <div className="message-box">
             <label htmlFor="message">Message *</label><br />
-            <textarea name="message" cols="45" rows="5"></textarea>
-        </>
+            <textarea name="message"></textarea>
+        </div>
     )
 }
 
