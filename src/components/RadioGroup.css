@@ -8,11 +8,16 @@
   align-items: center;
   gap: .5rem;
   margin-top: .5rem;
+  border: solid 1px hsl(186, 15%, 59%);
+  padding: 0.6rem;
+  border-radius: 10px;
 }
 
 .flex-start label,
 .flex-start input {
   margin: 0;
+  margin-left: 0.5rem;
+  gap: 1rem;
 }
 
 .radio-group{
