@@ -17,3 +17,9 @@
     border: red;
     cursor: pointer;
 }
+
+.input-text:hover,
+.input-text input {
+    cursor: pointer;
+    border-color: hsl(169, 82%, 27%);
+}

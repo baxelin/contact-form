@@ -23,3 +23,19 @@
 .radio-group{
     margin-top: 1rem;
 }
+
+.radio-group:hover,
+.flex-start:hover,
+.flex-start input,
+.flex-start label {
+  cursor: pointer;
+  border-color: hsl(169, 82%, 27%);
+}
+
+.flex-start:hover {
+  background-color: hsl(148, 38%, 91%);
+}
+
+.flex-start:active {
+  background-color: hsl(148, 38%, 91%);
+}
